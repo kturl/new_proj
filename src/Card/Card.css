@@ -1,0 +1,29 @@
+.card {
+  cursor: pointer;
+  height: 8rem;
+  width: 12.9rem;
+  margin: 1rem;
+  border-radius: 1.2rem;
+  font-size: 1.6rem;
+  color: rgb(255, 255, 255);
+  background: url("cardback.jpg");
+  /* background: yellow; */
+  background-position: center;
+  background-size: cover;
+  box-shadow: inset 3px 0px 1px 2px rgba(255, 255, 255, 0.7),
+    inset -3px 0px 1px 2px rgba(255, 255, 255, 0.7),
+    inset 0px 3px 1px 2px rgba(255, 255, 255, 0.7),
+    inset 0px -3px 1px 2px rgba(255, 255, 255, 0.7),
+    6px 6px 3px 2px rgba(0, 0, 0, 0.4), -6px 6px 3px 2px rgba(0, 0, 0, 0.4);
+}
+.cardOverlay {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  border-radius: inherit;
+  justify-content: center;
+  align-items: center;
+}
+.cardOverlay:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
